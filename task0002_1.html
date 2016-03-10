@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>练习1</title>
+	<link rel="stylesheet" href="css/task0002_1.css">
+</head>
+<body>
+	<div id="header">
+		<div id="nav">
+			<div class="logo"></div>
+			<div class="nav-bar">
+				<ul>
+					<li><a class="nav-item" href="index.html">首页</a></li>
+					<li><a class="nav-item" href="">练习</a></li>
+					<li><a class="nav-item" href="">作品</a></li>
+					<li><a class="nav-item" href="">关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<div id="container">
+			<ul>
+				<li>练习1</li>
+				<li><a href="task0002_2.html">练习2</a></li>
+			</ul>
+			<div id="task">
+				<h1>问题描述</h1>
+				<p class="problem">输入框中用来输入用户的兴趣爱好，允许用户用换行、空格（全角/半角）、逗号（全角/半角）、顿号、分号来作为不同爱好的分隔。</p>
+				<p class="problem">过滤掉空的、重复的爱好，在按钮下方，每一个爱好输出成为一个checkbox。</p>
+				<p class="problem">用户输入的爱好数量不能超过10个，也不能什么都不输入。当发生异常时，在按钮上方显示一段红色的错误提示文字，并且不继续执行后面的行为；当输入正确时，提示文字消失。</p>
+			</div>
+			<div id="input-area">
+				<textarea id="input" placeholder="在此输入兴趣爱好"></textarea> 
+				<button id="submit" class="button">提交</button>
+				<button id="reset" class="button right">重置</button>
+				<span class="error"></span>
+			</div>
+				
+		</div>
+		<div id="footer">
+			<div class="icon"></div>
+		</div>
+	</div>
+
+	<script src="js/util.js"></script>
+	<script src="js/task0002_1.js"></script>
+</body>
+</html>

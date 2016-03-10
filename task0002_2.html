@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习2</title>
+    <link rel="stylesheet" href="css/task0002_2.css">
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+            <div class="logo"></div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a class="nav-item" href="index.html">首页</a></li>
+                    <li><a class="nav-item" href="">练习</a></li>
+                    <li><a class="nav-item" href="">作品</a></li>
+                    <li><a class="nav-item" href="">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="body">
+        <div id="container">
+            <ul>
+                <li><a href="task0002_1.html">练习1</a></li>
+                <li>练习2</li>
+            </ul>
+            <div id="task">
+                <h1>问题描述</h1>
+                <p class="problem">输入框允许按照特定的格式YYYY-MM-DD输入年月日；点击提交后，计算当前距离输入的日期的00:00:00有多少时间差。</p>
+                <p class="problem">在页面中显示“距离YYYY年MM月DD日还有XX天XX小时XX分XX秒”。每一秒钟更新倒计时上显示的数，如果时差为0，则倒计时停止。</p>
+            </div>
+            <div id="input-area">
+                <input id="input" type="text" placeholder="在此按照格式YYYY-MM-DD输入年月日">
+                <button id="submit" class="button">提交</button>
+                <button id="reset" class="button right">重置</button>
+                <span class="error"></span>
+            </div>
+                
+        </div>
+        <div id="footer">
+            <div class="icon"></div>
+        </div>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/task0002_2.js"></script>
+</body>
+</html>

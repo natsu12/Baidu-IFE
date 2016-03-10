@@ -1,0 +1,162 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 980px;
+}
+
+/************ header part ************/
+
+#header {
+  height: 88px;
+  background-color: #522A5C;
+  width: 100%;
+}
+
+#header .logo {
+  height: 50px;
+  width: 300px;
+  background: url('../design/logo.png');
+  background-size: 300px 50px;
+  position: absolute;
+  bottom: 5px;
+}
+
+#header #nav {
+  height: 88px;
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+#header .nav-bar {
+  position: absolute;
+  bottom: 5px;
+  /* 注意定宽度，得到正确的定位 */
+  width: 100%;
+}
+
+#header .nav-bar ul {
+  margin: 0;
+  list-style-type: none;
+  float: right;
+}
+
+#header .nav-bar ul li {
+  float: left;
+  margin-left: 28px;
+}
+
+#header .nav-bar .nav-item {
+  color: white;
+  text-decoration: none;
+  font-family: '宋体', serif;
+  font-size: 18px;
+
+}
+
+/************ body part ************/
+
+#body {
+  background: #ECEDF1;
+  min-height: 600px;
+  min-width: 980px;
+  width: 100%;
+  position: absolute;
+  top: 88px;
+  bottom: 0;
+}
+
+#body #container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#body #container ul {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#body #container ul li {
+  margin-left: 28px;
+  display: inline;
+}
+
+#body #task h1 {
+  margin-top: 0;
+}
+
+#body #task .problem {
+  text-indent: 2em;
+}
+
+#body #input-area {
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#body #input {
+  width: 100%;
+  height: 150px;
+  outline: none;
+  font-size: 18px;
+  border: 0;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#body .button {
+  width: 40px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  display: block;
+  cursor: pointer;
+  float: left;
+}
+
+#body .right {
+  margin-left: 10px;
+}
+
+#body #result {
+  margin-top: 10px;
+}
+
+#body #result h3 {
+  margin-bottom: 10px;
+}
+
+#body .error {
+  margin: 30px;
+  line-height: 2;
+  color: red;
+}
+
+#body .interest {
+  margin-right: 10px;
+}
+
+/************ footer part ************/
+
+#footer {
+  height: 34px;
+  padding-top: 10px;
+  background: black;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#footer .icon {
+  width: 30px;
+  height: 34px;
+  margin: 0 auto;
+  background: url('../design/icon-github.png');
+}
